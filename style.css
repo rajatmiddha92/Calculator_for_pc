@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #5c5c5c;
+  width: 580px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+#input {
+  padding: 40px 180px;
+  border-radius: 12px;
+  margin: 30px 20px;
+  background-color: #cfe0cf;
+}
+input[type="text"] {
+  font-size: 14px;
+
+}
+div > button {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 17px 38px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  border: none;
+  color: #545454;
+
+  background-color: #ffffff;
+}
+/* .part-1{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+} */
+div {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  margin-left: 20px;
+}
